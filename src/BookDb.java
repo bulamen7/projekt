@@ -7,4 +7,6 @@ public interface BookDb {
     List<Book> sortByAuthor();
     List<Book> sortByCountry();
     List<Book> sortByTitle();
+    void add(Book book);
+    void delete(Book book);
 }

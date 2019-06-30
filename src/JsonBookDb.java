@@ -55,6 +55,16 @@ public class JsonBookDb implements BookDb {
         return books;
     }
 
+    @Override
+    public void add(Book book) {
+        books.add(book);
+    }
+
+    @Override
+    public void delete(Book book) {
+        books.remove(book);
+    }
+
     public static JsonBookDb fromFile(String path) throws IOException {
         Gson gson = createGson();
         return gson.fromJson(new FileReader(path), JsonBookDb.class);

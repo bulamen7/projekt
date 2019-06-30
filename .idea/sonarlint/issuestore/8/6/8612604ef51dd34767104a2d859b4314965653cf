@@ -1,5 +1,7 @@
 
-Msquid:S1068"*Remove this unused "table1" private field.(’¸Ş¢ÿÿÿÿÿ8Ôë«¹-
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ğâçğşÿÿÿÿ8şÑ±¹-
-Vsquid:S1068"3Remove this unused "filterTextField" private field.(İ€©ûÿÿÿÿ8„†©¹-
-Ssquid:S1068"0Remove this unused "filterButton" private field.(†«’‘úÿÿÿÿ8™‡¥¹-
+Rsquid:EmptyStatementUsageCheckU"Remove this empty statement.(ôŸìúÿÿÿÿ8Ôøæë¹-
+\"squid:SwitchLastCaseIsDefaultCheck'""Add a default case to this switch.(İï¾¬ùÿÿÿÿ8’œë¹-
+Fsquid:S1604C"(Make this anonymous inner class a lambda(¶é–é8¨°µë¹-
+Fsquid:S1604J"(Make this anonymous inner class a lambda(ü†¥Õ8ŞùÌë¹-
+Asquid:S1148T"#Use a logger to log this exception.(Ç’Çê8¸¤çë¹-
+W"squid:SwitchLastCaseIsDefaultCheck6""Add a default case to this switch.(äªÁ‡8¤¡®ë¹-
